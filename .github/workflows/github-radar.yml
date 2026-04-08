@@ -16,10 +16,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install -r github-radar/requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Run GitHub Radar
-        working-directory: github-radar
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
