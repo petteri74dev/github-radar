@@ -1,0 +1,38 @@
+searches:
+  # Core x402
+  - query: "x402"
+    interval: daily
+  - query: "erc-8004 agent"
+    interval: daily
+  - query: "erc8004"
+    interval: daily
+
+  # Payments + stablecoin + EUR
+  - query: "x402 payment facilitator"
+    interval: weekly
+  - query: "stablecoin EUR settlement"
+    interval: weekly
+  - query: "EURC payment"
+    interval: weekly
+
+  # Agent commerce
+  - query: "agentic commerce payment"
+    interval: weekly
+  - query: "mcp server payment"
+    interval: weekly
+  - query: "ai agent micropayment"
+    interval: weekly
+
+  # Telecom + M2V
+  - query: "telecom API payment"
+    interval: weekly
+  - query: "CAMARA open gateway"
+    interval: monthly
+  - query: "pay-to-reach"
+    interval: monthly
+
+  # Kilpailija-seuranta
+  - query: "x402 facilitator"
+    interval: weekly
+  - query: "agent trust score blockchain"
+    interval: weekly
